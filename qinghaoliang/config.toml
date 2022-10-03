@@ -1,0 +1,85 @@
+baseurl = "//lqhustc.github.io/qinghao.github.io/"
+DefaultContentLanguage = "en"
+title = "Qinghao Liang"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "I'm Qinghao Liang (梁擎昊), PhD candidate in Biomedical Enginnering at Yale University."
+  mainSections = ["post","posts"]
+  logo = "img/profile.png" # Expecting square dimensions
+  #favicon = ""
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+[[Params.bigimg]]
+  src = "img/huizhou.jpg"
+  position = "top"
+  
+#[[Params.bigimg]]
+#  src = "img/graph.webp"
+#  #desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  position = "bottom"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Qinghao Liang"
+  email = "qinghao.liang@yale.edu"
+  github = "lqhustc"
+  twitter = "liang_qinghao"
+  linkedin = "qinghao"
+  instagram = "qinghaoliang"
+
+[[menu.main]]
+    name = "Projects"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Resume"
+    url = "Resume/Qinghao_resume.pdf"
+    weight = 2
+
+[[menu.main]]
+    identifier = "Publications"
+    url = "https://scholar.google.com/citations?user=jwf6KUEAAAAJ&hl=en"
+    name = "Publications"
+    weight = 3
+
+#[[menu.main]]
+#    identifier = "News"
+#    name = "News"
+#    weight = 6
+
+#[[menu.main]]
+#    identifier = "Gallery"
+#    name = "Gallery"
+#    weight = 5
+
+#[[menu.main]]
+#    identifier = "Blogs"
+#    name = "Blogs"
+#    weight = 4
+
