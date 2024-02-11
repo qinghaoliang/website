@@ -1,4 +1,4 @@
-baseurl = "//lqhustc.github.io/qinghao.github.io/"
+baseurl = "//qinghaoliang.github.io/"
 DefaultContentLanguage = "en"
 title = "Qinghao Liang"
 theme = "beautifulhugo"
@@ -13,10 +13,16 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "I'm Qinghao Liang (梁擎昊), PhD candidate in Biomedical Enginnering at Yale University."
+  subtitle = '''
+                I'm Qinghao Liang, a PhD candidate in Biomedical Engineering at Yale University, 
+                with a focus on machine learning in Neuroimaging. 
+                My research aims to enhance data imputation and transfer learning for better prediction in brain connectomes, 
+                striving to conserve neuroimaging data and boost prediction accuracy. I previously
+                completed my BS in Physics at University of Science and Technology of China. 
+              '''
   mainSections = ["post","posts"]
   logo = "img/profile.png" # Expecting square dimensions
-  #favicon = ""
+  favicon = "img/brain.png"
   dateFormat = "January 2, 2006"
   commit = false
   rss = false
@@ -27,39 +33,40 @@ pygmentsCodefencesGuessSyntax = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-#  hideAuthor = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 [[Params.bigimg]]
-  src = "img/huizhou.jpg"
+  src = "img/sphere.jpg"
   position = "top"
   
-#[[Params.bigimg]]
-#  src = "img/graph.webp"
-#  #desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  position = "bottom"
-#  desc = "Hexagon"
-
 [Author]
   name = "Qinghao Liang"
   email = "qinghao.liang@yale.edu"
-  github = "lqhustc"
+  github = "qinghaoliang"
   twitter = "liang_qinghao"
   linkedin = "qinghao"
-  instagram = "qinghaoliang"
+  #instagram = "qinghaoliang"
 
 [[menu.main]]
-    name = "Projects"
-    url = ""
+    parent = "Projects"
+    name = "Resolving Atlas Divergence in Connectomes"
+    url = "projects/connectome_transformation"
     weight = 1
 
 [[menu.main]]
+    parent = "Projects"
+    name = "Rescuing missing data"
+    url = "projects/missing_data"
+    weight = 2
+
+[[menu.main]]
+    parent = "Projects"
+    name = "Learning across atlases"
+    url = "projects/learning_across_atlases"
+    weight = 3
+
+[[menu.main]]
     name = "Resume"
-    url = "Resume/Qinghao_resume.pdf"
+    url = "resume/Qinghao_resume.pdf"
     weight = 2
 
 [[menu.main]]
@@ -68,18 +75,5 @@ pygmentsCodefencesGuessSyntax = true
     name = "Publications"
     weight = 3
 
-#[[menu.main]]
-#    identifier = "News"
-#    name = "News"
-#    weight = 6
 
-#[[menu.main]]
-#    identifier = "Gallery"
-#    name = "Gallery"
-#    weight = 5
-
-#[[menu.main]]
-#    identifier = "Blogs"
-#    name = "Blogs"
-#    weight = 4
 

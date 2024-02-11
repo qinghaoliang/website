@@ -1,0 +1,4 @@
+[submodule "qinghaoliang/public"]
+	path = qinghaoliang/public
+	url = https://github.com/qinghaoliang/qinghaoliang.github.io.git
+	branch = main
